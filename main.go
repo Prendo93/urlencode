@@ -7,5 +7,5 @@ import (
 )
 
 func main() {
-	fmt.Println(url.QueryEscape(os.Args[1]))
+	fmt.Println(url.PathEscape(os.Args[1]))
 }
